@@ -8,9 +8,11 @@ var gameState,readState;
 function preload(){
 sadDog=loadImage("Images/Dog.png");
 happyDog=loadImage("Images/happy dog.png");
-garden=loadImage("Images/Garden.png");
-washroom=loadImage("Images/Wash Room.png");
-bedroom=loadImage("Images/Bed Room.png");
+//load images for garen,washroom and bedroom
+  
+  
+  
+  
 }
 
 function setup() {
@@ -95,12 +97,12 @@ function feedDog(){
 }
 
 //function to add food in stock
-function addFoods(){
-  foodS++;
-  database.ref('/').update({
-    Food:foodS
-  })
-}
+
+
+
+
+
+
 
 //update gameState
 function update(state){
